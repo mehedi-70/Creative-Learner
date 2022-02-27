@@ -1,0 +1,90 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+img {
+    max-width: 100%;
+  }
+  header {
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .primary{
+      color: #5146AF;
+  }
+  .btn-style-1{
+      background-color: #DEDBF8;
+      padding: 8px 15px;
+      color: #5146AF;
+      transition: 300ms;
+  }
+  .btn-style-1:hover{
+      padding: 8px 15px;
+      background: #5146AF;
+      color: #fff;
+      font-weight: 600;
+  }
+  /* ---------header------ */
+  .navbar .h2{
+      font-weight: 900;
+  }
+  .navbar-light .navbar-nav .nav-link:hover{
+      color: #5146AF;
+  }
+  header .h1{
+      text-shadow: 3px 2px 5px #00000085;
+  }
+  /* ---------price card---- */
+  .svg-card {
+    position: relative;
+  }
+  .custom-shape-divider-bottom-1645939714 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: 1;
+  }
+  .card-body {
+    z-index: 1111;
+  }
+  
+  .custom-shape-divider-bottom-1645939714 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 83px;
+  }
+  
+  .custom-shape-divider-bottom-1645939714 .shape-fill {
+    fill: #ecf1f6;
+  }
+  span.card-icon {
+    font-size: 30px;
+    background: #f6f3ee;
+    padding: 12px 18px;
+    border-radius: 15px 15px 1px 15px;
+    border: 5px solid #dcd8d8bd;
+  }
+  span.card-icon-1 {
+    font-size: 30px;
+    background: #f6f3ee;
+    padding: 12px 15px;
+    border-radius: 15px 15px 1px 15px;
+    border: 5px solid #dcd8d8bd;
+  }
+  .card-icon-3 {
+    font-size: 30px;
+    background: #f6f3ee;
+    padding: 12px 15px;
+    border-radius: 15px 15px 1px 15px;
+    border: 5px solid #dcd8d8bd;
+  }
+  i.fa-solid.fa-users.i-3 {
+    color: white;
+  }
+  /* Price card css end*/
+  
